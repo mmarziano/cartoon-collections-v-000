@@ -16,6 +16,7 @@ end
 
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  food.include? |i|
   if food.sort == cheese_types.sort
     return true 
   end
