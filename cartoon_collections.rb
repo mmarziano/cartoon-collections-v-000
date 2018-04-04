@@ -16,8 +16,6 @@ end
 
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  test_array = cheese_types & food
-    return test_array
   if food.sort == cheese_types.sort
     return true 
   end
